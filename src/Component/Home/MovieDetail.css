@@ -1,0 +1,124 @@
+.movie-detail-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3rem;
+  padding: 10% 3%;
+  margin: 0;
+  width: 100vw;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  overflow: hidden;
+}
+
+.movie-detail {
+  max-width: 600px;
+}
+
+.movie-title {
+  font-size: 2.5rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: rgb(5, 5, 5);
+}
+
+.movie-tagline {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  color: rgb(5, 5, 5);
+}
+
+.movie-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  color: rgb(5, 5, 5);
+}
+
+.movie-rating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(5, 5, 5);
+}
+
+.movie-rating p {
+  margin-left: 1rem;
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: rgb(5, 5, 5);
+}
+
+.movie-lang {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 1rem;
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #858ec0;
+  color: rgb(5, 5, 5);
+}
+
+.movie-genres {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: rgb(5, 5, 5);
+}
+
+.movie-genres p {
+  font-weight: bold;
+  color: rgb(5, 5, 5);
+}
+
+.movie-genre {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+  color: rgb(5, 5, 5);
+}
+
+.genre {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 1rem;
+  font-weight: bold;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  color: rgb(5, 5, 5);
+}
+
+.genre p {
+  margin-left: 0.5rem;
+  color: rgb(5, 5, 5);
+}
+
+.movie-overviews {
+  font-weight: bold;
+  color: rgb(5, 5, 5);
+}
+
+.movie-overview {
+  font-weight: 400;
+  color: rgb(5, 5, 5);
+}
+
+.movie-overviews p {
+  margin-top: 0.5rem;
+  color: rgb(5, 5, 5);
+}
+
+@media screen and (max-width: 850px) {
+  .movie-detail-container {
+    padding: 120px 3%;
+  }
+}

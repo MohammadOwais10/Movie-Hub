@@ -1,0 +1,57 @@
+.header {
+  background-color: white;
+  width: 100%;
+  padding: 5px 20px;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  border-bottom: 2px solid rgb(36 233 168);
+}
+
+.header h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.header-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  opacity: 0.5;
+  margin-bottom: 0.5em;
+  padding: 0.3em 1em;
+  margin-top: 0.5em;
+}
+
+.header a {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: darkgray;
+  text-decoration: none;
+  margin-left: 0.5em;
+}
+
+.header p {
+  margin-left: 1em;
+}
+
+.on-route {
+  opacity: 1;
+  border: 1px solid rgb(36 233 168);
+  color: rgb(36 233 168);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.header-logo {
+  margin-right: auto;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    padding: 2px;
+    flex-wrap: wrap;
+  }
+}
