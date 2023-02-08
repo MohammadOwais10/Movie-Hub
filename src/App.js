@@ -1,8 +1,8 @@
 import "./App.css";
-import Movie from "./Component.js/Home/Movie";
-import MovieDetail from "./Component.js/Home/MovieDetail";
-import Header from "./Component.js/Layout/Header";
-import Login from "./Component.js/Account/Login";
+import Movie from "./Component/Home/Movie";
+import MovieDetail from "./Component/Home/MovieDetail";
+import Header from "./Component/Layout/Header";
+import Login from "./Component/Account/Login";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 const App = () => {
